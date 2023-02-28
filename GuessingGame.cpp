@@ -12,10 +12,10 @@ int GenerateRandomNumber() {
 // If guess is smaller than randomNumber, print to console "Too low."
 // If guess us equal to randomNumber, print to console "That's right"
 void GameLogic(int randomNumber, int guess) {
-   if ( guess > randomNumber) { 
+   if (guess > randomNumber) { 
       std::cout << "Too high.\n" << std::endl; 
    } else if ( guess < randomNumber ) {
-      std::cout << "Too low.\n" << std::endl;
+      std::cout << "Too litter.\n" << std::endl;
    } else { 
       std::cout << "That's right!\n" << std::endl;
       exit(0);
