@@ -20,6 +20,9 @@ void GameLogic(int randomNumber, int guess) {
 // to input a number and the program will tell the player whether
 // the number is higher or lower than the random number.
 // The game ends when the player correctly guesses the random number.
+//
+// neeed help
+//
 int main() {
    int randomNumber = GenerateRandomNumber();
    int guess;
