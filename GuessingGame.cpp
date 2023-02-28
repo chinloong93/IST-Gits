@@ -2,8 +2,8 @@
 
 
 int GenerateRandomNumber() {
-   // todo: implement GenerateRandomNumber
-   return 10;
+   srand(time(NULL));
+   return rand() % 100+1;
 }
 
 
